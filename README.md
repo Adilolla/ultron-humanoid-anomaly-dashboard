@@ -1,4 +1,4 @@
-# Ultron Humanoid Anomaly Dashboard
+# ULTRON FleetOps — Humanoid Diagnostics Platform
 
 This repository is a synthetic humanoid-robot digital twin. It ingests fake ULTRON-01 hardware telemetry, persists it in MySQL, scores it with a PyTorch autoencoder, maps anomalies to robot subsystems, and streams repair guidance to a browser dashboard through Redis Streams and Socket.IO. BlueRock wraps the inference worker for free runtime visibility into the agentic diagnostic path.
 
